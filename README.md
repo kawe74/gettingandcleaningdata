@@ -12,4 +12,11 @@ Requirements: to create an R script called ```run_analysis.R```
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-### Description of variables:
+### Description of main variables:
+
+* dataset_dir: directory of the data sets
+* *_file:  filename of related files
+* *_train, *_test: raw data
+* *_sensor_data: merged sensor data
+* sensor_data_mean_std: mean and standard deviation for each measurement
+* sensor_avg_by_act_sub: a tidy data set with the average of each variable for each activity and each subject
